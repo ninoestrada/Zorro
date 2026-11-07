@@ -9,6 +9,8 @@
     Exploring Bitcoin trading through BRC-20 tokens and NFTs.
     <br />
     <br />
+    <a href="https://github.com/ninoestrada/Zorro-API">Backend Repository</a>
+    ·
     <a href="https://github.com/ninoestrada/Zorro/issues/new">Report Bug</a>
     ·
     <a href="https://github.com/ninoestrada/Zorro/issues/new">Request Feature</a>
@@ -45,15 +47,17 @@ This repository contains the frontend application. The backend is available in t
 
 **Bitcoin NFTs** are unique digital collectibles created through inscriptions on the Bitcoin blockchain. These inscriptions can contain images, text, and other digital content.
 
-### **🛠️ Tech Stack**
+### 🛠️ Tech Stack
 
-|                    Frontend                     |                     Backend                     |
-| :---------------------------------------------: | :---------------------------------------------: |
-| [![TypeScript][TypeScript.com]][TypeScript-url] |     [![Node.js][Node.js.com]][Node.js-url]      |
-|        [![React][React.com]][React-url]         | [![TypeScript][TypeScript.com]][TypeScript-url] |
-|  [![Ant Design][AntDesign.com]][AntDesign-url]  |     [![Express][Express.com]][Express-url]      |
-|        [![Axios][Axios.com]][Axios-url]         |        [![MySQL][MySQL.com]][MySQL-url]         |
-|     [![Chart.js][ChartJS.com]][ChartJS-url]     |  [![BitcoinJS][BitcoinJS.com]][BitcoinJS-url]   |
+|                        Frontend                        |                            Backend                             |
+| :----------------------------------------------------: | :------------------------------------------------------------: |
+|    [![TypeScript][TypeScript.com]][TypeScript-url]     |             [![Node.js][Node.js.com]][Node.js-url]             |
+|            [![React][React.com]][React-url]            |        [![TypeScript][TypeScript.com]][TypeScript-url]         |
+|     [![Ant Design][AntDesign.com]][AntDesign-url]      |             [![Express][Express.com]][Express-url]             |
+|            [![Axios][Axios.com]][Axios-url]            |                [![MySQL][MySQL.com]][MySQL-url]                |
+|        [![Chart.js][ChartJS.com]][ChartJS-url]         |          [![BitcoinJS][BitcoinJS.com]][BitcoinJS-url]          |
+|    [![CoinGecko API][CoinGecko.com]][CoinGecko-url]    |          [![UniSat Open API][UniSat.com]][UniSat-url]          |
+| [![UniSat Wallet][UniSatWallet.com]][UniSatWallet-url] | [![Blockstream Esplora API][Blockstream.com]][Blockstream-url] |
 
 The backend technologies are part of the separate [Zorro-API](https://github.com/ninoestrada/Zorro-API) repository.
 
@@ -79,7 +83,7 @@ The ZORO token was deployed with a maximum supply of 21 million tokens and a min
 
 **ZORO BRC-20 Token:** [View token](https://testnet.unisat.io/brc20/ZORO)
 
-**Zorro NFT:** [View NFT](https://testnet.unisat.io/inscription/2ceb19ae6f8467b4fb2dec00739dfe77b45b8d533904b14a87f29580600440dfi0)
+**Zorro NFT:** [View NFT](https://testnet.unisat.io/inscription/0451d8f8f3181834262df077420d1c8701791c81345f17a8410e07e7c649e92ei0)
 
 _These assets were created on Bitcoin Testnet for development and testing and have no monetary value._
 
@@ -136,6 +140,7 @@ Order fulfillment requires a separate matching process provided by the Zorro-API
 
 - **[Zorro](https://github.com/ninoestrada/Zorro)** — Frontend application built with React and TypeScript.
 - **[Zorro-API](https://github.com/ninoestrada/Zorro-API)** — Backend API built with Node.js, Express, and MySQL, supporting trading orders, transaction records, and order matching.
+- **[Zorro-Indexer](https://github.com/ninoestrada/Zorro-Indexer)** — Original Bitcoin indexer built to process blockchain transactions and BRC-20 inscriptions. The final version of Zorro uses the UniSat API instead.
 
 ## 👥 Contributors
 
@@ -203,3 +208,11 @@ Order fulfillment requires a separate matching process provided by the Zorro-API
 [MySQL-url]: https://www.mysql.com/
 [BitcoinJS.com]: https://img.shields.io/badge/BitcoinJS-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white
 [BitcoinJS-url]: https://github.com/bitcoinjs/bitcoinjs-lib
+[UniSat.com]: https://img.shields.io/badge/UniSat_Open_API-222222?style=for-the-badge
+[UniSat-url]: https://docs.unisat.io/
+[Blockstream.com]: https://img.shields.io/badge/Blockstream_Esplora_API-162B50?style=for-the-badge
+[Blockstream-url]: https://github.com/Blockstream/esplora/blob/master/API.md
+[CoinGecko.com]: https://img.shields.io/badge/CoinGecko_API-8DC63F?style=for-the-badge
+[CoinGecko-url]: https://www.coingecko.com/en/api
+[UniSatWallet.com]: https://img.shields.io/badge/UniSat_Wallet-222222?style=for-the-badge
+[UniSatWallet-url]: https://unisat.io/
